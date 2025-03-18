@@ -1,0 +1,38 @@
+path: "/content/drive/My Drive/trafficsign/YOLO_Traffic_Signs/data" # dataset root dir
+train: images/train # train images (relative to 'path')
+val: images/train # val images (relative to 'path')
+
+# Classes
+nc: 14 # number of classes
+names: [
+    two_way,
+    crosswalk,
+    dontpass,
+    down_hill,
+    tunnel_ending,
+    go_straight,
+    turn_left,
+    park,
+    pass,
+    turn_right,
+    stop,
+    give_way,
+    tunnel,
+    up_hill,
+  ] # class names in list format
+
+
+###
+  tunnel_beginning
+  cross_walk
+  parking_zone
+  no_passing_zone_beginning
+  stop
+  priority_over
+  barred_area
+  steep_hill_uphill
+  steep_hill_downhill
+  turn_left
+  turn_right
+  go_straight
+###
