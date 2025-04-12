@@ -1,0 +1,16 @@
+names:
+  - barred_area
+  - cross_walk
+  - go_straight
+  - no_passing_zone_beginning
+  - parking_zone
+  - priority_over
+  - steep_hill_downhill
+  - steep_hill_uphill
+  - stop
+  - tunnel_beginning
+  - turn_left
+  - turn_right
+nc: 12
+train: "/content/drive/MyDrive/Notebooks/IKIUSelfDrivingCar/Dataset/barred_area/Train"
+val: "/content/drive/MyDrive/Notebooks/IKIUSelfDrivingCar/Dataset/barred_area/Val"
